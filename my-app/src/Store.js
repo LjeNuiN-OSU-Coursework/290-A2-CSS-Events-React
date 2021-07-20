@@ -4,9 +4,9 @@ import './App.css'
 function Store({store}){
     return(
             <tr>
-                <td className='list-item'>{store.city}</td>
-                <td className='list-item'>{store.state}</td>
-                <td className='list-item'>{store.zipCode}</td>
+                <td >{store.city}</td>
+                <td >{store.state}</td>
+                <td >{store.zipCode}</td>
             </tr>
 
         

@@ -1,42 +1,99 @@
 body {
   background-color: blanchedalmond;
   color: black;
-  margin: 1pt;
-  padding:50pt;
+  margin: 1 pt;
+  padding:5pt;
   font-family:cursive;
   
 }
 
-.list-item {
-  border: 2px solid rgb(202, 200, 89);
-  border-radius: 8px;
+h1 {
+  font-family: cursive;
+  color: rgb(0, 255, 136);
+}
+caption {
+  font-size: 65px;
+  color: white;
+  margin-bottom: 1pt;
+  font-weight: bold;
+  border: black solid;
+  
+} 
+
+
+tr {
+  border: 6pt rgb(214, 231, 60) solid;
+  border-radius: 2px;
+  width: 40px;
+}
+
+
+
+th {
+  border: 6px solid gold;
+  padding: 32px;
   width: 400px;
   margin-top: 16px;
 }
-.list-container {
-  border: 6px solid rgb(0, 255, 136);
-  padding: 32px;
+
+td{
+  border: 2px solid rgb(63, 139, 104);
+  width: 400px;
+  margin-top: 16px;
 }
+
+fieldset {
+  font-family:cursive;
+  color: rgb(0, 255, 136);
+  border: white solid;
+  
+
+}
+
+legend {
+  font-family:cursive;
+  color: rgb(0, 255, 136);
+
+} 
+
+label {
+  font-family:cursive;
+  color: white;
+}
+
+
+input {
+  font-family:cursive;
+  color: black;
+}
+
+
+button{
+  font-family:cursive;
+  color: rgb(46, 116, 61);
+
+}
+
+
 .App {
   text-align: center;
   
 }
 
 
-
-
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(22, 50, 82);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  font-family:cursive;
   color: white;
 }
 
 .App-link {
-  color: #61dafb;
+  color: rgb(0, 255, 136);
 }
 

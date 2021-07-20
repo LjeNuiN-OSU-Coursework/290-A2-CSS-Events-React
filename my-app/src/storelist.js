@@ -1,12 +1,12 @@
 import React from 'react';
-import stores from "./data/stores";
 import Store from './Store';
 import './App.css';
 
 function StoreList({stores}){
     return(
+        
         <table>
-            <caption></caption>
+            <caption>Locations</caption>
             <thead >
                 <tr >
                     <th>City</th>

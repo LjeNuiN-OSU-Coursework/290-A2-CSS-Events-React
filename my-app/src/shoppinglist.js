@@ -1,20 +1,17 @@
 import React from 'react';
-import items from "./data/items";
 import Item from './Item';
 import './App.css';
-import Quantity from './Quantity'
-
 
 
 function ShoppingList({items}){
     return(
         <table>
-            <caption></caption>
+            <caption>Store</caption>
             <thead>
                 <tr>
-                    <th className='list-container'>Name</th>
-                    <th className='list-container'>Price</th>
-                    <th className='list-container'>Quantity</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
                 </tr>
 
             </thead>

@@ -10,7 +10,7 @@ import ZipCode from '../ZipCode'
 function StoresListPage() {
   return (
     <>
-      <h1>List of Beaver Mart Stores</h1>
+    <h1 className='App'>List of Beaver Mart Stores</h1>
         <StoreList stores ={stores}></StoreList>
         <ZipCode></ZipCode>
         <p>

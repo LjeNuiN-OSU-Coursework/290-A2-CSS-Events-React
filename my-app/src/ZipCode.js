@@ -6,10 +6,13 @@ function ZipCode(){
     return (
           <form>
             <fieldset>
-              <legend></legend>
-              <label>Please enter your Zipcode
+              <legend>Enter Your Zipcode</legend>
+              <label>
+                -- 
+
                 <input type="number" min="00501" max="99999" value={zip}
-                  onChange={e => setZip(e.target.value)}/>
+                  onChange={e => setZip(e.target.value)}/> 
+                --
               </label>
             </fieldset>
             <button onClick={e => {

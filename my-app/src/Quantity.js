@@ -22,10 +22,8 @@ function Quantity() {
         
              <AiOutlineMinusCircle onClick={countDown}></AiOutlineMinusCircle>
 
-        
         <b>{count}</b>
 
-       
              <AiOutlinePlusCircle onClick={countUp}></AiOutlinePlusCircle>
         
 
