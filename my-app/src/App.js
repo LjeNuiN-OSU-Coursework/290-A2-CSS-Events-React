@@ -16,7 +16,7 @@ function App() {
     <Router>
         <header className="App-header">
           <Route path="/" exact>
-            <HomePage />
+            <HomePage/>
           </Route>
           <Route path="/storelist">
             <StoresListPage stores={stores} />
